@@ -17,7 +17,7 @@ textarea:focus, input:focus {
   outline: none;
 }
 
-a {
+a, label {
   font-size: 0.8rem;
 }
 
@@ -46,6 +46,69 @@ label, input {
   display: block;
   width: 100%;
   text-align: left;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  border-bottom: 2px solid #323232;
+  padding: 0.7rem;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+input:focus {
+  border-bottom: 2px solid #08558b;
+}
+
+#forgot-password {
+  text-align: right;
+  display: block;
+}
+
+input[type=submit] {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  height: 3rem;
+  border-radius: 1rem;
+  background-color: #08558B;
+  color: white;
+  margin-top: 2.5rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: #08558B;
+  border: 2px solid #08558B;
+}
+
+/*Social Media - container*/
+#social-container, #social-container p {
+  margin-bottom: 1.5rem;
+}
+
+#social-container i {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 1.5rem;
+  color: white;
+  line-height: 2.5rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+#social-container .fa-facebook-f {
+  background-color: #3b5998;
+}
+
+#social-container .fa-linkedin-in {
+  background-color: #0077b5;
 }
 
 /*# sourceMappingURL=style.css.map */
