@@ -111,10 +111,10 @@ input[type=submit]:hover {
   background-color: #0077b5;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 390px) {
   #login-container {
     background-color: white;
-    width: 20rem;
+    width: 90%;
     margin-top: 2rem;
     padding: 3rem 3rem;
     border-radius: 1rem;
@@ -122,26 +122,38 @@ input[type=submit]:hover {
     height: 90vh;
   }
   form {
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-bottom: 3rem;
   }
   input {
     border-bottom: 2px solid #323232;
     padding: 0.3rem;
     font-size: 0.8rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
   a, label {
     font-size: 0.7rem;
   }
   p {
     font-size: 0.7rem;
+    margin-bottom: 1rem;
   }
   h1 {
     font-size: 1.8rem;
   }
   input[type=submit] {
     margin-top: 3rem;
+  }
+}
+@media (max-width: 535px) {
+  #login-container {
+    background-color: white;
+    width: 90%;
+    margin-top: 2rem;
+    padding: 3rem 3rem;
+    border-radius: 1rem;
+    text-align: center;
+    height: 90vh;
   }
 }
 
