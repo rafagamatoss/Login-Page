@@ -116,3 +116,44 @@ input[type="submit"]:hover{
 }
 
 
+@media(max-width: 375px){
+    #login-container{
+        background-color: white;
+        width: 20rem;
+        margin-top: 2rem;       
+        padding: 3rem 3rem;               
+        border-radius: 1rem;
+        text-align: center;
+        height: 90vh;
+    }
+
+    form{
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    input{
+        border-bottom: 2px solid #323232;
+        padding: .3rem;
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+    }
+
+    a, label{
+        font-size: .7rem;
+    }
+
+    p{
+        font-size: .7rem;
+    }
+
+    h1{
+        font-size: 1.8rem;
+    }
+
+    input[type="submit"]{
+        margin-top: 3rem;
+    }
+
+    
+}
